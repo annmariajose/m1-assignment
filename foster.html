@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sana Pet Rescue</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="main-header">
+                    <div class="logo">
+                        <img src="images/pet_logo.jpeg" alt="Sana Pet Rescue" width="125">
+                        <h2>Sana Pet Rescue</h2>
+                        <p>Edina orphan pet rescue</p>
+                    </div>
+                    <nav class="main-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="adopt.html">Adopt</a></li>
+                            <li><a href="foster.html">Foster</a></li>
+                            <li>Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="banner">
+                    <img width="100%" src="images/foster_banner.jpeg" alt="Foster Pets Banner">
+                    <h2>Foster</h2>
+                </div>
+                <p>
+                    Since our inception, we have strongly believed that a home is many pets ideal environment. 
+                    As such, foster homes are absolutely critical to the success of our rescue mission - 
+                    fosters house our adoptable animals and enable us to continue our lifesaving efforts!
+                </p>
+                <p>
+                    After you fill out the form, a member of our Foster Coordination team will be in touch 
+                    via email, usually within 48 hours of submission. Be sure to check your spam folder in the 
+                    days after submission to ensure you do not miss an email from our team members.
+                </p>
+                <p>
+                    After you have completed our foster training, you will be able to see animals in need of 
+                    foster homes through our private internal communication channels. You are always able 
+                    to foster as many animals as you feel comfortable with as often as you like and should 
+                    never feel pressured to take an animal that does not fit with your lifestyle or family 
+                    dynamic.
+                </p>
+                <br>
+                <h3>Foster Application</h3>
+                <form style="width: 700px">
+                    <fieldset>
+                        <legend><strong>Contact Information</strong></legend>
+                        <label><strong>First Name</strong><span style="color: red">&ast;</span></label>
+                        <br>
+                        <input type="text" name="firstName">
+                        <br>
+                        <br>
+                        <label><strong>Last Name</strong><span style="color: red">&ast;</span></label>
+                        <br>
+                        <input type="text" name="lastName">
+                        <br>
+                        <br>
+                        <label><strong>Address</strong><span style="color: red">&ast;</span></label>
+                        <br>
+                        <input type="text" name="address">
+                        <br>
+                        <br>
+                        <label><strong>City</strong><span style="color: red">&ast;</span></label>
+                        <br>
+                        <input type="text" name="city">
+                        <br>
+                        <br>
+                        <label><strong>State</strong><span style="color: red">&ast;</span></label>
+                        <br>
+                        <input type="text" name="state">
+                        <br>
+                        <br>
+                        <label><strong>Email</strong><span style="color: red">&ast;</span></label>
+                        <br>
+                        <input type="email" name="email">
+                        <br>
+                        <br>
+                        <label><strong>Phone</strong><span style="color: red">&ast;</span></label>
+                        <br>
+                        <input type="number" name="phone" maxlength="10">
+                        <br>
+                        <br>
+                        <label>
+                            <strong>What type pf animal are you able to foster? (check all that apply)</strong>
+                        </label>
+                        <ul style="list-style: none; ">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="adolescentDogs" name="adolescentDogs" value="adolescentDogs"/>
+                                                <label>Adolescent dogs (6-12 months)</label>
+                                            </li>
+                                        </td>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="adolescentCats" name="adolescentCats" value="adolescentCats"/>
+                                                <label>Adolescent cats (6-12 months)</label>
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="adultDogs" name="adultDogs" value="adultDogs"/>
+                                                <label>Adult dogs (1 year and older)</label>
+                                            </li>
+                                        </td>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="adultCats" name="adultCats" value="adultCats"/>
+                                                <label>Adult cats (1 year and older)</label>
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="pregnantDog" name="pregnantDog" value="pregnantDog"/>
+                                                <label>Adult female dog w/ puppies or pregnant</label>
+                                            </li>
+                                        </td>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="pregnantCat" name="pregnantCat" value="pregnantCat"/>
+                                                <label>Adult female cat w/ kittens or pregnant</label>
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="critters" name="critters" value="critters"/>
+                                                <label>Critters (guinea pigs, rabbits, rats, etc.)</label>
+                                            </li>
+                                        </td>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="powerBreeds" name="powerBreeds" value="powerBreeds"/>
+                                                <label>Power Breeds</label>
+                                            </li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="puppies" name="puppies" value="puppies"/>
+                                                <label>Puppies</label>
+                                            </li>
+                                        </td>
+                                        <td>
+                                            <li>
+                                                <input type="checkbox" id="kittens" name="kittens" value="kittens"/>
+                                                <label>Kittens</label>
+                                            </li>
+                                        </td>  
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </ul>
+                        <label>
+                            <strong>Tell us why you want to foster</strong>
+                            <span style="color: red">&ast;</span>
+                        </label>
+                        <br>
+                        <textarea rows="5" cols="60"></textarea>
+                        <br>
+                        <br>
+                        <label>
+                            <strong>Is your yard fenced? (note: a fence is not required)</strong>
+                        </label>
+                        <br>
+                        <select>
+                            <option>No Yard</option>
+                            <option>Unfenced Yard</option>
+                            <option>Physical Fence</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+                <br>
+                <br>
+            </main>
+            <footer>
+                <div id="nondisclaimer">
+                    <div class="copy">
+                        Copyright &copy; 2023 &middot; All Rights Reserved &middot; Sana Pet Rescue
+                    </div>
+                    <div class="social">
+                        <h3>Facebook Image</h3>
+                        <h3>Instagram Image</h3>
+                    </div>
+                </div>
+                <div id="disclaimer">
+                    <p>
+                        This website is designed and created solely for educational purposes only at Westcliff University. 
+                        All contents are not intended for any commercial gain or use.
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
