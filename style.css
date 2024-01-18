@@ -75,6 +75,11 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    color: #3f8d9d;
+    margin-top: 1.5em;
+}
+
 /* Footer */
 footer {
     width: 100%;
@@ -152,11 +157,6 @@ footer #nondisclaimer .social .fa-instagram:hover {
     padding: 0 1.5em;
 }
 
-.homeHelpHeading {
-    color: #3f8d9d;
-    margin-top: 2em;
-}
-
 .adoptTextLink a {
     text-decoration: none;
     color: #3f8d9d;
@@ -214,9 +214,79 @@ footer #nondisclaimer .social .fa-instagram:hover {
     padding: 2px 2px 2px 2px;
 }
 
+.petGrid p {
+    text-align: center;
+}
+
 /* Foster */
 #foster .banner{
     background: url(images/foster_banner.jpeg) 0 -180px no-repeat;
     background-size: 1500px;
     height: 500px;
+}
+
+.fosterApplicationForm {
+    width: 1000px;
+    margin: auto;
+}
+
+.fosterApplicationForm fieldset {
+    border: 1px solid #3f8d9d;
+}
+
+.fosterApplicationForm fieldset > label {
+    display: block;
+    padding-bottom: 3px;
+    font-weight: 600;
+}
+
+.fosterApplicationForm input[type="text"], input[type="email"], input[type="number"] {
+    width: 300px;
+    height: 25px;
+    color: lightgray;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.fosterApplicationForm fieldset ul {
+    list-style: none;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.fosterApplicationForm ul table td {
+    padding-left: 10px;
+}
+
+.fosterApplicationForm textarea {
+    width: 600px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fosterApplicationForm select {
+    width: 300px;
+    height: 30px;
+    display: block;
+    color: lightgray;
+    padding-left: 5px;
+    margin-bottom: 2em;
+}
+
+.asterik {
+    color: red;
+}
+
+.fosterApplicationForm input[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: #0f7185;
+    color: white;
+    margin: auto;
+    margin-bottom: 1em;
+    font-size: large;
+    font-weight: bold;
+    display: block;
 }
